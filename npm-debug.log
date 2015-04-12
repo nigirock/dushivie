@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'owl.carousel' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'owl.carousel', null ]
+6 verbose cache add name=undefined spec="owl.carousel" args=["owl.carousel",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'owl.carousel',
+7 verbose parsed url   path: 'owl.carousel',
+7 verbose parsed url   href: 'owl.carousel' }
+8 silly lockFile c9260ee8-owl-carousel owl.carousel
+9 verbose lock owl.carousel C:\Users\Александр\AppData\Roaming\npm-cache\c9260ee8-owl-carousel.lock
+10 silly lockFile c9260ee8-owl-carousel owl.carousel
+11 silly lockFile c9260ee8-owl-carousel owl.carousel
+12 verbose addNamed [ 'owl.carousel', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile d07fed1c-owl-carousel owl.carousel@
+15 verbose lock owl.carousel@ C:\Users\Александр\AppData\Roaming\npm-cache\d07fed1c-owl-carousel.lock
+16 silly addNameRange { name: 'owl.carousel', range: '*', hasData: false }
+17 verbose request where is /owl.carousel
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 8f4fdfe5c8675591
+20 verbose url raw /owl.carousel
+21 verbose url resolving [ 'https://registry.npmjs.org/', './owl.carousel' ]
+22 verbose url resolved https://registry.npmjs.org/owl.carousel
+23 verbose request where is https://registry.npmjs.org/owl.carousel
+24 info trying registry request attempt 1 at 16:35:25
+25 http GET https://registry.npmjs.org/owl.carousel
+26 http 404 https://registry.npmjs.org/owl.carousel
+27 verbose headers { date: 'Wed, 08 Apr 2015 13:35:29 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '51',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-fra1226-FRA',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1428500129.073298,VS0,VE116',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Wed, 08 Apr 2015 13:35:29 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '51',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-fra1226-FRA',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1428500129.073298,VS0,VE116',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile d07fed1c-owl-carousel owl.carousel@
+30 silly lockFile d07fed1c-owl-carousel owl.carousel@
+31 error 404 404 Not Found: owl.carousel
+31 error 404
+31 error 404 'owl.carousel' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Windows_NT 6.1.7601
+33 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "owl.carousel"
+34 error cwd D:\works\dush
+35 error node -v v0.10.35
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]

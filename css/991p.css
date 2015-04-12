@@ -1,0 +1,13 @@
+header {
+  /*=== end .tel_block ===*/
+}
+header .logo img {
+  width: 100%;
+}
+header .tel_block {
+  margin-top: 40px;
+}
+header .tel_block .tel_img {
+  height: 40px;
+  background: url("../img/tel.png") 70px 3px no-repeat;
+}
