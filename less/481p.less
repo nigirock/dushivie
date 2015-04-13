@@ -12,7 +12,7 @@
       margin-top: 40px;
       .tel_img {
         height: 40px;
-        background: url("../img/tel.png") 15px 0px no-repeat;
+        background: url("../img/tel.png") 15px 0 no-repeat;
       }
       .tel_number{
         a{
@@ -29,31 +29,47 @@
     width: 100%;
     top: 0
   }/*=== end menu ===*/
-  .owl-nav{
-    .owl-prev{
-      background: #fff;
-      left: 2%;
+  .slider_content {
+    .owl-nav {
+      .owl-prev {
+        background: #fff;
+        left: 2%;
+      }
+      .owl-next {
+        background: #fff;
+        right: 2%;
+      }
+      .arrow {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 35px;
+        border-radius: 0;
+        opacity: 0.5;
+      }
+      .glyphicon {
+      }
+      :before {
+        font-size: 25px;
+        left: 0;
+        position: absolute;
+        top: 40%;
+        opacity: 1;
+      }
     }
-    .owl-next{
-      background: #fff;
-      right: 2%;
+    .sales {
+      bottom: 20px;
+      left: 25%;
+      font-size: 16px;
     }
-    .arrow{
-      height: 100%;
-      position: absolute;
-      top: 0;
-      width: 35px;
-      border-radius: 0;
-      opacity: 0.5;
+    h3 {
+      line-height: 15px;
+      span {
+        font-size: 20px;
+      }
     }
-    .glyphicon{
-    }:before{
-       font-size: 25px;
-       left: 0;
-       position: absolute;
-       top: 40%;
-       opacity: 1;
-     }
+    h3:last-child {
+      font-size: 20px;
+    }
   }/*=== end slider ===*/
-
 }
