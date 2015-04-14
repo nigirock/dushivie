@@ -219,7 +219,7 @@ menu .navbar-default .navbar-collapse .span_dot {
 .slider_content {
   font-family: "Roboto", sans-serif;
   position: relative;
-  border-bottom: 8px solid #d6d6d6;
+  border-bottom: 5px solid #d6d6d6;
 }
 .slider_content .owl-nav .owl-prev {
   background: #fff;
@@ -262,29 +262,92 @@ menu .navbar-default .navbar-collapse .span_dot {
   font-size: 60px;
 }
 .slider_content h3:last-child {
-  font-size: 70px;
+  font-size: 60px;
 }
 .slider_content .description {
   position: absolute;
-  bottom: -80px;
+  bottom: -100px;
   z-index: 10;
   background: #fff;
   margin: auto;
   left: 0;
   right: 0;
   width: 55%;
-  padding: 10px 15px 15px 40px;
+  padding: 10px 8px 15px 8px;
   border: 1px solid #d5d5d5;
 }
 .slider_content .description h4 {
   font-size: 25px;
   text-align: center;
-  padding: 0 30px;
 }
 .slider_content .description p {
   font-size: 14px;
   text-align: center;
   color: #636363;
+}
+.bg_container {
+  background: #f6f6f6;
+  margin-top: 80px;
+  border-top: 5px solid #d6d6d6;
+}
+.bg_container .catalog {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+.bg_container .catalog h4 {
+  font-size: 30px;
+  color: #939393;
+  margin-bottom: 5px;
+}
+.bg_container .catalog .under_line {
+  display: block;
+  height: 5px;
+  width: 65px;
+  background: #7f4c52;
+}
+.bg_container .catalog .slider_catalog {
+  padding-left: 47px;
+}
+.bg_container .catalog .slider_catalog img {
+  height: 190px;
+  width: 225px;
+}
+.bg_container .catalog .slider_catalog .slide_item {
+  background: #fff;
+  margin: 10px 0 20px 0;
+  height: 220px;
+  width: 225px;
+  border: 1px solid #d6d6d6 ;
+}
+.bg_container .catalog .nav_block {
+  background: #a58e91;
+  position: absolute;
+  top: 63px;
+  height: 85%;
+  width: 2%;
+}
+.bg_container .catalog .nav_block_right {
+  right: 15px;
+}
+.bg_container .catalog .owl-controls .owl-nav .owl-prev {
+  left: -15px;
+  position: absolute;
+  z-index: 10;
+  font-size: 50px;
+  top: 45%;
+}
+.bg_container .catalog .owl-controls .owl-nav :hover {
+  opacity: 0.5;
+}
+.bg_container .catalog .owl-controls .owl-nav .owl-next {
+  right: -15px;
+  position: absolute;
+  z-index: 10;
+  font-size: 50px;
+  top: 45%;
+}
+.bg_container .catalog .owl-controls .owl-nav :hover {
+  opacity: 0.5;
 }
 @media screen and (max-width: 1200px) {
   header {
@@ -320,6 +383,10 @@ menu .navbar-default .navbar-collapse .span_dot {
   }
   .slider_content h3:last-child {
     font-size: 50px;
+  }
+  .slider_content .description {
+    bottom: -125px;
+    width: 70%;
   }
   /*=== end slider===*/
 }
@@ -357,8 +424,11 @@ menu .navbar-default .navbar-collapse .span_dot {
     padding-left: 8px;
   }
   /*=== end menu===*/
+  .slider_content {
+    border-bottom: 5px solid #d6d6d6;
+  }
   .slider_content .sales {
-    bottom: 55px;
+    bottom: 235px;
     left: 25%;
     font-size: 20px;
   }
@@ -370,6 +440,15 @@ menu .navbar-default .navbar-collapse .span_dot {
   }
   .slider_content h3:last-child {
     font-size: 30px;
+  }
+  .slider_content .description {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #d6d6d6;
+  }
+  .slider_content .description h4 {
+    font-size: 22px;
   }
   /*=== end slider===*/
 }
