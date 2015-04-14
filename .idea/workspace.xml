@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1184423c-122a-4439-ba1d-c38a95b4c340" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/catalog.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dush.iws" />
@@ -337,7 +338,19 @@
       <option name="project" value="LOCAL" />
       <updated>1429005321167</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add slider_catalog">
+      <created>1429005460804</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1429005460804</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add slider_catalog img">
+      <created>1429005518919</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1429005518919</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -406,7 +419,8 @@
     <MESSAGE value="add class description" />
     <MESSAGE value="test" />
     <MESSAGE value="add slider_catalog" />
-    <option name="LAST_COMMIT_MESSAGE" value="add slider_catalog" />
+    <MESSAGE value="add slider_catalog img" />
+    <option name="LAST_COMMIT_MESSAGE" value="add slider_catalog img" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
