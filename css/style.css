@@ -306,18 +306,31 @@ menu .navbar-default .navbar-collapse .span_dot {
   background: #7f4c52;
 }
 .bg_container .catalog .slider_catalog {
-  padding-left: 47px;
+  padding: 0 47px;
 }
 .bg_container .catalog .slider_catalog img {
   height: 190px;
-  width: 225px;
 }
 .bg_container .catalog .slider_catalog .slide_item {
   background: #fff;
-  margin: 10px 0 20px 0;
+  margin: 10px 0 20px;
   height: 220px;
-  width: 225px;
   border: 1px solid #d6d6d6 ;
+}
+.bg_container .catalog .slider_catalog .slide_item h5 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.bg_container .catalog .slider_catalog .hover_item {
+  cursor: pointer;
+  background: #996b70;
+}
+.bg_container .catalog .slider_catalog .img_bg_opacity {
+  opacity: 0.7;
+}
+.bg_container .catalog .slider_catalog .white_color {
+  color: #fff;
+  opacity: 1;
 }
 .bg_container .catalog .nav_block {
   background: #a58e91;

@@ -9,11 +9,12 @@ $(document).ready(function(){
     });
     $(".slider_catalog").owlCarousel({
         items : 4,
-        responsiveClass : false,
+        responsiveClass : true,
         loop : true,
         nav : true,
         navText : false,
         animateOut: "fadeOutLeft",
+        margin: 25,
         responsive:{
             0:{
                 items:1,
@@ -37,13 +38,24 @@ $(document).ready(function(){
                 items:4,
                 nav:true,
                 loop:true
-            }
+             }
         }
     });
 
     $(".owl-next,.owl-prev").addClass("arrow");
     $(".owl-next").addClass("glyphicon glyphicon-menu-right");
-    $(".owl-prev").addClass("glyphicon glyphicon-menu-left")
+    $(".owl-prev").addClass("glyphicon glyphicon-menu-left");
+    $(".slide_item").hover(function(){
+        $(this).addClass("hover_item");
+        $(this).children().addClass("img_bg_opacity");
+        $(this).find("h5").addClass("white_color");
+    },function(){
+        $(this).removeClass("hover_item");
+        $(this).children().removeClass("img_bg_opacity");
+        $(this).find("h5").removeClass("white_color");
+    });
+
+
 
 });
 
