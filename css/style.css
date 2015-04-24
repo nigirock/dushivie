@@ -128,7 +128,6 @@ table {
   border-spacing: 0;
 }
 header {
-  font-family: "Roboto", sans-serif;
   padding-bottom: 25px;
 }
 header .logo {
@@ -172,7 +171,6 @@ header .tel_block .tel_number a {
   color: #000;
 }
 menu {
-  font-family: "Roboto", sans-serif;
   font-size: 24px;
   position: absolute;
   z-index: 10;
@@ -217,7 +215,6 @@ menu .navbar-default .navbar-collapse .span_dot {
   bottom: 15px;
 }
 .slider_content {
-  font-family: "Roboto", sans-serif;
   position: relative;
   border-bottom: 5px solid #d6d6d6;
 }
@@ -293,17 +290,7 @@ menu .navbar-default .navbar-collapse .span_dot {
 .bg_container .catalog {
   font-family: "Roboto", sans-serif;
   position: relative;
-}
-.bg_container .catalog h4 {
-  font-size: 30px;
-  color: #939393;
-  margin-bottom: 5px;
-}
-.bg_container .catalog .under_line {
-  display: block;
-  height: 5px;
-  width: 65px;
-  background: #7f4c52;
+  padding-bottom: 30px;
 }
 .bg_container .catalog .slider_catalog {
   padding: 0 47px;
@@ -336,7 +323,7 @@ menu .navbar-default .navbar-collapse .span_dot {
   background: #a58e91;
   position: absolute;
   top: 63px;
-  height: 85%;
+  height: 80%;
   width: 2%;
 }
 .bg_container .catalog .nav_block_right {
@@ -580,4 +567,19 @@ menu .navbar-default .navbar-collapse .span_dot {
     font-size: 20px;
   }
   /*=== end slider ===*/
+}
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+body .catalog h4,
+body .company h4 {
+  font-size: 30px;
+  color: #939393;
+  margin-bottom: 5px;
+}
+body .under_line {
+  display: block;
+  height: 5px;
+  width: 65px;
+  background: #7f4c52;
 }
