@@ -290,10 +290,15 @@ menu .navbar-default .navbar-collapse .span_dot {
 .bg_container .catalog {
   font-family: "Roboto", sans-serif;
   position: relative;
-  padding-bottom: 30px;
+}
+.bg_container .catalog h4 {
+  font-size: 30px;
+  color: #939393;
+  margin-bottom: 5px;
 }
 .bg_container .catalog .slider_catalog {
   padding: 0 47px;
+  margin-top: 30px;
 }
 .bg_container .catalog .slider_catalog img {
   height: 190px;
@@ -322,8 +327,8 @@ menu .navbar-default .navbar-collapse .span_dot {
 .bg_container .catalog .nav_block {
   background: #a58e91;
   position: absolute;
-  top: 63px;
-  height: 80%;
+  top: 109px;
+  height: 78%;
   width: 2%;
 }
 .bg_container .catalog .nav_block_right {
@@ -332,7 +337,6 @@ menu .navbar-default .navbar-collapse .span_dot {
 .bg_container .catalog .owl-controls .owl-nav .owl-prev {
   left: -15px;
   position: absolute;
-  z-index: 10;
   font-size: 50px;
   top: 45%;
 }
@@ -342,12 +346,49 @@ menu .navbar-default .navbar-collapse .span_dot {
 .bg_container .catalog .owl-controls .owl-nav .owl-next {
   right: -15px;
   position: absolute;
-  z-index: 10;
   font-size: 50px;
   top: 45%;
 }
 .bg_container .catalog .owl-controls .owl-nav :hover {
   opacity: 0.5;
+}
+.company {
+  margin-bottom: 35px;
+}
+.company .company_desc h5 {
+  font-size: 28px;
+}
+.company .company_desc p {
+  font-size: 12px;
+}
+.company .company_desc .checkbox_block {
+  padding-left: 0;
+  margin-top: 15px;
+}
+.company .company_desc .checkbox_block ul li {
+  list-style: none;
+  background: url("../img/checkbox.png") no-repeat;
+  padding: 0 0 20px 35px;
+  font-size: 13px;
+  color: #4f4e4e;
+  font-weight: bold;
+}
+.company .new img {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px -5px 25px 1px #8a8a8a;
+  box-shadow: 0px -5px 25px 1px #8a8a8a;
+}
+.company button {
+  background: #7f4c52;
+  text-transform: uppercase;
+  color: #FFF;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 5px 20px 2px;
+  margin-top: 10px;
 }
 @media screen and (max-width: 1200px) {
   header {
@@ -578,8 +619,15 @@ body .company h4 {
   margin-bottom: 5px;
 }
 body .under_line {
-  display: block;
+  display: inline-block;
   height: 5px;
   width: 65px;
   background: #7f4c52;
+}
+body .under_line_long {
+  display: inline-block;
+  height: 5px;
+  width: 80%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: -5px;
 }
