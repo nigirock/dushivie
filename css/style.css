@@ -373,12 +373,30 @@ menu .navbar-default .navbar-collapse .span_dot {
   color: #4f4e4e;
   font-weight: bold;
 }
+.company .new {
+  position: relative;
+}
 .company .new img {
   width: 100%;
   margin-top: 20px;
   border-radius: 10px;
   -webkit-box-shadow: 0px -5px 25px 1px #8a8a8a;
   box-shadow: 0px -5px 25px 1px #8a8a8a;
+}
+.company .new_hover {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding: 15px 0 15px 0px;
+  width: 95%;
+  background: rgba(37, 33, 33, 0.3);
+  border-radius: 0 0 10px 10px;
+}
+.company .new_hover span {
+  margin-left: 50px;
+  cursor: pointer;
 }
 .company button {
   background: #7f4c52;
@@ -389,6 +407,18 @@ menu .navbar-default .navbar-collapse .span_dot {
   font-size: 14px;
   padding: 5px 20px 2px;
   margin-top: 10px;
+}
+.manufacturers .firms {
+  margin: 25px 0;
+}
+.manufacturers .firms .firm_items {
+  border: 1px solid #bbb;
+  text-align: center;
+  padding: 25px;
+}
+.manufacturers .firms :hover {
+  border: 1px solid #b85662;
+  cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
   header {
@@ -613,7 +643,8 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 body .catalog h4,
-body .company h4 {
+body .company h4,
+body .manufacturers h4 {
   font-size: 30px;
   color: #939393;
   margin-bottom: 5px;
