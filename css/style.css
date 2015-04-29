@@ -436,6 +436,9 @@ footer {
 footer .first_row_footer {
   line-height: 2;
 }
+footer .first_row_footer .footer_items span:first-child {
+  color: #000;
+}
 footer .first_row_footer .footer_items address {
   margin-bottom: 0px;
 }
@@ -486,6 +489,11 @@ footer .first_row_footer .footer_items ul li :hover {
     width: 70%;
   }
   /*=== end slider===*/
+  /*=== start catalog===*/
+  .bg_container .catalog {
+    margin-top: 30px;
+  }
+  /*=== end catalog===*/
 }
 @media screen and (max-width: 991px) {
   header {
@@ -548,12 +556,32 @@ footer .first_row_footer .footer_items ul li :hover {
     font-size: 22px;
   }
   /*=== end slider===*/
+  /*=== start catalog===*/
+  .bg_container {
+    margin-top: 0;
+  }
+  .bg_container .catalog {
+    margin-top: 10px;
+  }
+  /*=== end catalog===*/
+  /*=== start company===*/
+  .company .new img {
+    margin-top: 50px;
+  }
+  /*=== end company===*/
+  /*=== start manufacturers===*/
+  .manufacturers {
+    margin-bottom: 20px;
+  }
+  /*=== end manufacturers===*/
 }
 @media screen and (max-width: 768px) {
   header {
     /*=== end .tel_block ===*/
   }
   header .logo img {
+    height: 50px;
+    margin: 0 auto;
     width: auto;
   }
   header .input-group {
@@ -565,7 +593,7 @@ footer .first_row_footer .footer_items ul li :hover {
   }
   header .tel_block .tel_img {
     height: 40px;
-    background: url("../img/tel.png") 70px 3px no-repeat;
+    background: url("../img/tel.png") 60px 3px no-repeat;
   }
   header .tel_block .tel_number a {
     line-height: 40px;
@@ -579,6 +607,7 @@ footer .first_row_footer .footer_items ul li :hover {
     z-index: 10;
     width: 100%;
     top: 0;
+    border-top: 1px solid rgba(192, 191, 191, 0.34);
   }
   menu .navbar-default .navbar-collapse .navbar-nav :hover {
     background: #feffff;
@@ -600,13 +629,11 @@ footer .first_row_footer .footer_items ul li :hover {
   header {
     /*=== end .tel_block ===*/
   }
-  header .logo img {
-    width: 100%;
-  }
   header .input-group {
     margin-top: 20px;
   }
   header .tel_block {
+    display: none;
     margin-top: 40px;
   }
   header .tel_block .tel_img {
